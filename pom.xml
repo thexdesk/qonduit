@@ -52,7 +52,7 @@
         <version.junit>4.12</version.junit>
         <version.log4j>2.8</version.log4j>
         <version.netty>4.1.42.Final</version.netty>
-        <version.netty-tcnative>2.0.1.Final</version.netty-tcnative>
+        <version.netty-tcnative>2.0.43.Final</version.netty-tcnative>
         <version.powermock>1.6.4</version.powermock>
         <version.slf4j>1.7.23</version.slf4j>
         <version.spring-boot>1.4.1.RELEASE</version.spring-boot>
@@ -499,7 +499,7 @@
             <properties>
                 <maven.compiler.release>8</maven.compiler.release>
                 <!-- provide a default of no classifier when loading in Eclipse -->
-                <os.detected.classifier></os.detected.classifier>
+                <os.detected.classifier/>
             </properties>
             <build>
                 <pluginManagement>
