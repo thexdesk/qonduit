@@ -42,7 +42,7 @@
         <version.commons-collections4>4.1</version.commons-collections4>
         <version.commons-lang3>3.5</version.commons-lang3>
         <version.disruptor>3.3.6</version.disruptor>
-        <version.guava>21.0</version.guava>
+        <version.guava>32.0.0-android</version.guava>
         <version.hadoop>2.7.3</version.hadoop>
         <version.httpcomponents>4.5.3</version.httpcomponents>
         <version.jackson>2.10.0</version.jackson>
@@ -499,7 +499,7 @@
             <properties>
                 <maven.compiler.release>8</maven.compiler.release>
                 <!-- provide a default of no classifier when loading in Eclipse -->
-                <os.detected.classifier></os.detected.classifier>
+                <os.detected.classifier/>
             </properties>
             <build>
                 <pluginManagement>
